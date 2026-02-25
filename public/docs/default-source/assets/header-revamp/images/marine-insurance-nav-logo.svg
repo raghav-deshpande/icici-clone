@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<svg width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.92846 19.9229H5.98779V23.6029H9.92846V19.9229Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M15.717 19.9229H11.7764V23.6029H15.717V19.9229Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M21.5129 19.9229H17.5723V23.6029H21.5129V19.9229Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M27.3088 19.9229H23.3682V23.6029H27.3088V19.9229Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M13.1101 16.1357H9.16943V19.8157H13.1101V16.1357Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M18.906 16.1357H14.9653V19.8157H18.906V16.1357Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24.7019 16.1357H20.7612V19.8157H24.7019V16.1357Z" stroke="#E3530F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M30.9888 23.6034V21.3341H32.7214V13.5371H38.4561V19.0571H40.2961V23.9254" stroke="#0B4B7F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M4.14746 23.5877V25.5657L9.59846 30.2194H38.0265C38.0265 30.2194 41.7908 28.4331 41.5915 23.8791L4.14746 23.5801V23.5877Z" stroke="#0B4B7F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34.9599 15.7373H33.0049" stroke="#0B4B7F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34.9599 17.8301H33.0049" stroke="#0B4B7F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="10.2579" cy="26.1485" r="0.766667" fill="#0B4B7F" />
+  <circle cx="13.3477" cy="26.1485" r="0.766667" fill="#0B4B7F" />
+  <circle cx="16.4298" cy="26.1485" r="0.766667" fill="#0B4B7F" />
+  <circle cx="19.5118" cy="26.1485" r="0.766667" fill="#0B4B7F" />
+</svg>

@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "images:convert": "node ./tools/convert-images-to-webp.js",
+    "images:update-html": "node ./tools/update-html-add-webp.js",
+    "images:webp": "npm run images:convert && npm run images:update-html",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -14,6 +17,8 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "sharp": "^0.32.0",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",

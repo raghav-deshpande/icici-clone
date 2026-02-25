@@ -1,0 +1,101 @@
+{
+  "total": 662,
+  "files": [
+    {
+      "file": "public\\motor-insurance\\car-insurance.html",
+      "count": 508
+    },
+    {
+      "file": "public\\assets\\js\\core.js",
+      "count": 44
+    },
+    {
+      "file": "public\\docs\\default-source\\productionassets\\jscripts\\common\\core.js",
+      "count": 44
+    },
+    {
+      "file": "public\\assets\\js\\login.js",
+      "count": 9
+    },
+    {
+      "file": "public\\docs\\default-source\\apps\\loginpopup\\prod\\js\\login.js",
+      "count": 9
+    },
+    {
+      "file": "src\\app\\route.js",
+      "count": 6
+    },
+    {
+      "file": "public\\assets\\js\\jquery.js",
+      "count": 5
+    },
+    {
+      "file": "public\\docs\\default-source\\assets\\js\\uicommon\\jquery.js",
+      "count": 5
+    },
+    {
+      "file": "public\\assets\\js\\main-9f9f51ed87fc43fb.js",
+      "count": 4
+    },
+    {
+      "file": "public\\docs\\default-source\\apps\\fwwidget\\prod\\js\\main-9f9f51ed87fc43fb.js",
+      "count": 4
+    },
+    {
+      "file": "public\\assets\\js\\autoretrievequotelanding.js",
+      "count": 3
+    },
+    {
+      "file": "public\\assets\\js\\il-web-header-footer-global.js",
+      "count": 3
+    },
+    {
+      "file": "public\\docs\\default-source\\assets\\home-revamp\\js\\il-web-header-footer-global.js",
+      "count": 3
+    },
+    {
+      "file": "public\\docs\\default-source\\productionassets\\jscripts\\common\\autoretrievequotelanding.js",
+      "count": 3
+    },
+    {
+      "file": "public\\assets\\js\\jsstorage.js",
+      "count": 2
+    },
+    {
+      "file": "public\\docs\\default-source\\productionassets\\jscripts\\common\\jsstorage.js",
+      "count": 2
+    },
+    {
+      "file": "public\\assets\\js\\fw-vendor-template-stage.js",
+      "count": 1
+    },
+    {
+      "file": "public\\assets\\js\\fwlanding.js",
+      "count": 1
+    },
+    {
+      "file": "public\\assets\\js\\il-lombard-car-landing-custom.js",
+      "count": 1
+    },
+    {
+      "file": "public\\assets\\js\\main-3e27ad90a2f769d8.js",
+      "count": 1
+    },
+    {
+      "file": "public\\docs\\default-source\\apps\\fwfresh\\fw-landing\\js\\il-lombard-car-landing-custom.js",
+      "count": 1
+    },
+    {
+      "file": "public\\docs\\default-source\\apps\\website-login-app\\prod\\js\\main-3e27ad90a2f769d8.js",
+      "count": 1
+    },
+    {
+      "file": "public\\docs\\default-source\\assets\\freshlook\\fw-vendor-template-stage.js",
+      "count": 1
+    },
+    {
+      "file": "public\\docs\\default-source\\publish\\script\\motor\\fwlanding.js",
+      "count": 1
+    }
+  ]
+}

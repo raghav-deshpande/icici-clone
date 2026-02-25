@@ -1,0 +1,1209 @@
+.why-smart-garage{display:inline-block;width:100%;margin:0 auto;text-align:center}.garages-blue-block{display:inline-block;width:80%;margin:0 auto;background:#fff;border-radius:1rem;border:1px solid #c9c9c9;padding:3rem 5rem;position:relative}.blue-list-block{display:inline-block;width:50%;float:left;padding-bottom:5rem;position:relative}.garage-right{display:inline-block;width:85%;vertical-align:top;padding-left:2rem;text-align:left}.garage-right h3{font-size:1.5rem;font-weight:700}.garage-right p{font-size:1.3rem;line-height:22px;font-weight:400}.garages-blue-block:after{background:#c9c9c9;width:90%;height:1px;position:absolute;content:"";bottom:50%;text-align:center;margin:0 auto;display:block}.garages-blue-block:before{background:#c9c9c9;height:80%;margin:0 auto;display:inline-block;width:1px;position:absolute;content:""}.landing-smart-saver{display:inline-block;text-align:center;margin:0 auto;padding-bottom:5rem}.landing-smart-saver img{display:inline-block;vertical-align:top}.what-smart-saver{display:inline-block;width:70%;text-align:left;padding-left:3rem}.what-smart-saver h2{font-weight:700;font-size:2.9rem}.why-smart-garage h2{text-align:center;font-size:2.4rem;padding-bottom:2rem;display:block}.blue-list-block:nth-child(2):after,.blue-list-block:nth-child(4):after{display:none}.blue-list-block:nth-child(3):before,.blue-list-block:nth-child(4):before{display:none}.blue-list-block:nth-child(2),.blue-list-block:nth-child(4){padding-left:2rem}.blue-list-block:nth-child(3){padding-bottom:0}.blue-list-block:last-child{padding-bottom:0}.ui-card-wrap{display:inline-flex;width:100%;margin:0 auto;padding:5rem 0 0}.ui-card-wrap .card-block{display:flex;text-align:left;width:30%;margin:0 auto;padding:2.5rem 3rem;border:1px solid #eaeaea;border-radius:1rem}.flexclass{display:flex;align-items:center}.img_section{margin-right:2rem}.ui-card-wrap .card-block span{padding-bottom:.6rem;font-size:2rem;line-height:25px;font-weight:700;color:#f26624;text-align:left;display:inline-block}.ui-card-wrap p{font-size:1.4rem;line-height:1.8rem;text-align:left;position:relative}.ui-card-wrap .card-block p span{font-size:1.4rem;line-height:1.8rem;color:#282828;padding:0 0.6rem;position:relative}.ui-card-wrap .card-block p span:first-of-type{padding-left:0}.ui-card-wrap .card-block p span:after{top:7px;left:97%;}.pbm-0.pkg_policy_bg{background-color:#fff2eb}.section-content{padding:6rem 0 6rem 0}.container-small{max-width:120rem;margin:0 auto}.section-content h2{font-weight:700}.pkg_policy{padding-top:30px;margin-left:15px;margin-right:15px}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;-moz-backface-visibility:hidden}#pkg_policy_slider .owl-item{background:#fff;border-radius:20px;padding:40px 70px 40px 40px}
+/*! jQuery UI - v1.12.1 - 2016-09-14 */
+ .owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:-webkit-grab;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{-webkit-transition:height 0.5s ease-in-out;transition:height 0.5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;-webkit-transition:opacity 0.4s ease;transition:opacity 0.4s ease}.owl-carousel .owl-item img.owl-lazy{-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;-webkit-transition:-webkit-transform 0.1s ease;transition:transform 0.1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);-webkit-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;-webkit-transition:opacity 0.4s ease;transition:opacity 0.4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}#pkg_policy_slider .owl-nav .owl-next{right:-12px;top:28rem;background:#fff}#pkg_policy_slider .owl-nav .owl-prev{left:-12px;top:28rem;background:#fff}#pkg_policy_slider .blog_card{width:405px;margin:0}#pkg_policy_slider .card_content p{font-size:15px}#pkg_policy_slider .owl-next.disabled,.owl-prev.disabled{opacity:1;background:#fff}#pkg_policy_slider img{max-width:170px}#pkg_policy_slider .owl-nav .owl-next,.ui-reviews-slider .owl-nav .owl-next{right:0;background:#fff}#pkg_policy_slider .owl-nav .owl-prev,.ui-reviews-slider .owl-nav .owl-prev{left:0;background:#fff}#pkg_policy_slider .owl-nav .owl-prev,.ui-reviews-slider .owl-nav .owl-prev{position:absolute;left:-6rem;top:48%;font-size:0;height:5rem;width:5rem;border-radius:50px;cursor:pointer;margin-left:0;box-shadow:5px 0 10px 0 rgba(0,0,0,.1);background:#ec6625;border:1px solid #eaeaea}#pkg_policy_slider .owl-nav .owl-next,.ui-reviews-slider .owl-nav .owl-next{position:absolute;right:-6rem;top:48%;font-size:0;height:5rem;width:5rem;border-radius:50px;cursor:pointer;margin-right:0;box-shadow:5px 0 10px 0 rgba(0,0,0,.1);background:#ec6625;border:1px solid #eaeaea}#pkg_policy_slider .owl-nav .owl-prev:before,.ui-reviews-slider .owl-nav .owl-prev:before{border-color:transparent;border-style:none;border-width:0;background-image:url(/docs/default-source/assets/india-risk-index/images/white-review-arrow.svg);height:16px;width:18px;vertical-align:text-top;transform:rotate(180deg);left:16px;top:16px;content:"";display:inline-block;vertical-align:text-top;box-sizing:inherit;margin:0;position:absolute}#pkg_policy_slider .owl-nav .owl-next:before,.ui-reviews-slider .owl-nav .owl-next:before{border-color:transparent;border-style:none;border-width:0;background-image:url(/docs/default-source/assets/freshlook/images/arrow_pointer_review.svg);height:16px;width:18px;transform:rotate(360deg);left:16px;top:17px;content:"";display:inline-block;vertical-align:text-top;box-sizing:inherit;margin:0;position:absolute}#pkg_policy_slider .owl-nav .owl-prev.disabled,#pkg_policy_slider .owl-nav .owl-next.disabled,.ui-reviews-slider .owl-nav .owl-next.disabled,.ui-reviews-slider .owl-nav .owl-prev.disabled{background:#fff;border:1px solid #cbcdce;cursor: not-allowed !important;}#pkg_policy_slider .owl-nav .owl-prev.disabled:before,#pkg_policy_slider .owl-nav .owl-next.disabled:before,.ui-reviews-slider .owl-nav .owl-next.disabled:before,.ui-reviews-slider .owl-nav .owl-prev.disabled:before{background-image:url(/docs/default-source/assets/images/review_arrow.png);opacity:.5}#pkg_policy_slider .owl-item{background:#fff;border-radius:20px;padding:40px 70px 40px 40px;min-height:445px}#pkg_policy_slider .owl-item img{border-radius:10px}.pbm-0.pkg_policy_bg{background-color:#fff2eb}.pkg_policy{padding-top:30px}#pkg_policy_slider .owl-dots{text-align:center;padding:20px 0 44px}.common-insurance-blocks.flex_class{display:flex;margin:15px 0;background:#fff;padding:30px 40px 30px 30px;border-radius:15px;min-height:200px}.svg_content{padding-right:30px}.right-policy-container{display:flex;flex-wrap:wrap;justify-content:space-between}.right-policy-holder{background:#00305b;border:1px solid #065e9e;border-radius:15px;padding:3rem 3rem 3rem 2rem;width:32%;display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:25px}.num-holder{font-weight:700;font-size:45px;line-height:47px;color:#f26624;padding-right:2rem}.car-ins-head{font-weight:700;font-size:18px;line-height:25px;color:#fff;padding-bottom:1rem;padding-right:2.4rem}.car-ins-p{font-weight:400;font-size:16px;line-height:24px;color:#fff}section.section-content.pay-you-block,section.section-content.how-does-icici-work-block,section.section-content.what-factors-impact-idv{background:#f8f6e4}.view-more-content .paraHide{display:block}.view-more-content a.vMore,.view-more-content a.rMore{display:none}.pad-word-wrap{padding-right:11rem}.table_para{width:80%;margin:0 auto}@media only screen and (max-width:1280px){#pkg_policy_slider .owl-nav .owl-prev{left:0}#pkg_policy_slider .owl-nav .owl-next{right:0}}@media only screen and (max-width:992px){.common-insurance-blocks.flex_class{min-height:325px;}.table_para{width:90%}.img-wrap{min-height:45px;}#pkg_policy_slider .owl-item{padding:30px 10px;min-height:600px}#pkg_policy_slider img{max-width:160px;margin:0 auto;margin-bottom:32px}.ui-card-wrap{display:flex;flex-direction:column;gap:15px;column-gap:15px}.ui-card-wrap .card-block{width:100%;padding:2rem}.svg_content{padding-right:20px}}@media only screen and (max-width:767px){.table_para{width:100%}.common-insurance-blocks.flex_class{margin:7px 0;padding:25px;min-height:auto}.section-content{padding:4rem 1rem 6rem 1rem}.pkg_policy_bg.section-content{padding:4rem 0 6rem 0}.pad-mob-lr{padding:0 1rem}.section-content h2{font-size:2.4rem}.img_pdt_mob{padding-top:4rem}.table_wrapper{margin:30px auto 0 auto;width:100%!important}.right-policy-holder{width:100%;min-height:363px}.owl-dots{text-align:center}.right-policy-container{padding-top:3rem!important}.choose_right_policy{padding:4rem 2rem 6rem}.pd_top5_mob{padding-top:5rem!important}.premium_calulation .text-blue{margin:30px 0 0 0}.view-more-content .paraHide{display:none}.view-more-content a.vMore,.view-more-content a.rMore{display:block}.pad-word-wrap{padding-right:0}.container-small h2{padding-left:0}#pkg_policy_slider .owl-item{min-height:463.64px}}.img-section-h{height:50px;display:flex;align-items:flex-end;justify-content:flex-start;padding-bottom:2rem}.bg-lightblue{background:#e1f4fd}@media (max-width:1199px){.garages-blue-block{width:100%;padding:3rem 2rem}}@media (max-width:767px){.ui-policy-documents p a.policy_doc{margin-top:10px;display:block;color:#ec6608;padding:10px 15px;border:1px solid #c9c9c9;border-radius:10px;text-decoration:none;font-weight:700;background-image:url(/docs/default-source/assets/car-landing-new/images/forward_arrow.svg);background-repeat:no-repeat;background-position-x:right;background-position-y:center;background-origin:content-box}.ui-policy-documents p{position:relative;padding-left:0}.ui-policy-documents p>span{position:relative;display:block}.landing-smart-saver{text-align:left}.what-smart-saver{width:100%;padding-left:0}.what-smart-saver h2{font-size:2.2rem;padding:2rem 0}.why-smart-garage h2{text-align:left;font-size:2.2rem}.why-smart-garage{text-align:left}.garages-blue-block{width:100%;padding:3rem 2rem}.blue-list-block{width:100%;float:none;padding-bottom:3rem}.blue-list-block:nth-child(2),.blue-list-block:nth-child(4){padding-left:0}.garage-right{display:block;width:100%;padding-left:0;text-align:left;padding-top:1rem}.blue-list-block:after{display:none}.blue-list-block:before{display:none}.blue-list-block:nth-child(3){padding-bottom:3rem}.garages-blue-block:after,.garages-blue-block:before{display:none}}.section-content.key-features .tableWrapp td{text-align:left;padding-left:20px}.section-content.key-features .tableWrapp tr:nth-child(even){background-color:#f5f6f6}.section-content.key-features .tableWrapp th{padding-left:30px}.section-content.key-features .tableWrapp tr:nth-child(odd){background-color:transparent}.ui-policy-documents p>span{/*position:absolute;left:0;top:-1px;*/font-size:1.7rem;font-weight:600}.ui-policy-documents p{position:relative;}.claim_know_btn{color:#ec6608!important;background:transparent;border:1px solid #ec6608}.claim_know_btn:hover{color:#fff!important;background:#ec6608}.quote_click{cursor:pointer;font-weight:700;font-size:16px;text-decoration:underline;color:#ec6625}.link-btn{font-weight:700;font-size:15px;text-decoration:underline;color:#ec6625}.inc-exc-tab sup{font-size:17px;color:#282828}.inc-exc-tab h3{font-size:15px;font-weight:700;padding:28px 0}.section-content .popular-search h2{font-weight:500;padding-bottom:3rem;line-height:44px}.flexs{display:flex;align-items:center}.popular-search{padding-left:40px}.section-content.key-features .tableWrapp th{font-weight:700;font-size:16px;line-height:20px;color:#282828;padding: 2rem;}.section-content.key-features .tableWrapp td{font-weight:400;font-size:16px;line-height:20px;color:#282828;padding:15px 20px}.section-content.search-bg{background:#f8f6f6}.pro-code-wrap{width:60%;margin:2rem auto}.products-code-block{padding:2rem 0;border-top:solid 1px #ddd}.pro-code-wrap .tableWrapp th{text-align:center!important}.popular-search a{background-color:#fff;color:#000;font-weight:500;font-size:12px;line-height:15px;border-radius:100px;padding:8px 15px;display:inline-block;margin-right:5px;margin-bottom:10px;text-decoration:none}.popular-search a:hover{background:#fff2eb;box-shadow:0 1px 2px rgba(0,0,0,.1);border:none;text-decoration:none}.popular-search a:focus{border:none}@media (max-width:991px){.pro-code-wrap{width:100%}}a#keepMeposted.btn-white{margin-top:0}.input-block.js-veh-block.blockInpdis label{top:4px;font-size:2rem}.ui-form-block .check-feild span a{font-weight:500}.banner-para h1{font-weight:700}.banner-para span{font-weight:300}ul.ui-banner-list li{font-weight:500}.lineN{font-size:18px;padding:0 5px;bottom:0;font-weight:100}p{font-weight:500}.disc_text sub{position:relative;font-size:1rem;bottom:8px}.ui-form-block .input-block:first-child{margin-bottom:0}.input-block.notewrap{bottom:10px}.note a.js-know-reg{display:none}.input-block.blockInpdis{opacity:.6;pointer-events:none}.input-block.blockInpdis.focus{opacity:.6;pointer-events:none}.input-block.blockInpdis input[type="text"]{pointer-events:none}.input-block.blockInpdis.focus input[type="text"]{pointer-events:none}.js-veh-block input::placeholder{color:#8097ac!important}.js-veh-block input:-ms-input-placeholder{color:#8097ac!important;font-weight:400!important}.note a.js-already-reg{display:none}.js-veh-block.blockInpdis input::placeholder{font-size:0;color:#8097ac!important}.js-veh-block.blockInpdis input:-ms-input-placeholder{font-size:0;color:#8097ac!important}.js-veh-block input.uppercase::placeholder{text-transform:none!important}a{font-weight:700}ul.ui-banner-list li{font-size:2rem}.input-block .note a{color:#ec6608;text-decoration:underline;font-size:1.4rem;font-weight:600}.input-block .note a:hover{text-decoration:none}.ui-banner-content{padding:2rem 5rem 0}.ui-form-block .check-feild span{color:#fff}.ui-form-block .check-feild span a{color:#fff;cursor:pointer;font-size:1.3rem;text-decoration:underline}.ui-form-block a.renewal-link{background:none;border:1px solid #6e8ba5}.input-block input{font-size:1.7rem}ul.ui-banner-list li img{vertical-align:middle}.ui-form-block a.renewal-link img{-webkit-transform:scaleX(-1);transform:scaleX(-1)}.banner-para h1{font-size:4.5rem}.ui-card-wrap .card-block span .sup_script{font-size:1.2rem;line-height:12px;padding-bottom:0}.ui-card-wrap .card-block p span{font-weight:500}.ui-card-wrap .card-block span{font-weight:700}.common-insurance-blocks em{color:#f26624;font-weight:700}.inc-exc-tab .ui-check-list.exclusion-tabs li{font-size:16px}p{font-size:16px;line-height:24px;font-weight:400}.pay-you-block .row,.what-factors-impact-idv .row,.what-are-the-benefits .row,.why-renewing-your-car .row{display:flex;align-items:center}.premium_calulation ul.arrow-tab-list li,.save_premium ul.arrow-tab-list li{padding-bottom:0;line-height:1.76;font-size:16px}.premium_calulation .text-blue{color:#282828}ul.arrow-tab-list{padding:1rem 0rem 0}.premium_calulation .common-insurance-blocks p{font-size:16px}.premium_calulation .common-insurance-blocks em{top:16px}ul.arrow-tab-list.green_tick li{font-size:1.6rem}.tab-head li{color:#6c6c6c}.paraHide{display:none;font-size:1.6rem;font-weight:500}.package-policy-wording p a{text-decoration:underline;border-bottom:none}a.vMore,a.rMore{color:#fe6625;text-decoration:underline}a.vMore:after,a.rMore:after{content:"";border:solid #ec6625;border-width:0 2px 2px 0;display:inline-block;padding:3px;transform:rotate(45deg);-webkit-transform:rotate(45deg);margin-left:.7rem;vertical-align:baseline}a.vMore.vLess:after,a.rMore.rLess:after{transform:rotate(-135deg);vertical-align:middle}.btn-orange{font-weight:500}.ui-form-block a.renewal-link span{font-weight:500}.banner-para sub{color:#fff;font-size:1.1rem;bottom:20px;position:relative}ul.ui-banner-list li sub{bottom:1.1rem;font-size:1rem}#viewListp.overlayN{z-index:9999}#login_verificationEc_lp{z-index:99999}.inc-exc-tab h3{padding:10px 0}.bg-blue .input-block.blockInpdis input{border-bottom:1px solid #3e6c8f}.input-block.js-veh-block.blockInpdis label{color:#3e6c8f;top:0;font-size:2rem}.input-block.blockInpdis sup{color:#3e6c8f}.input-block.blockInpdis.focus input[type="text"]{pointer-events:all;cursor:not-allowed}.input-block.blockInpdis input[type="text"]{pointer-events:all;cursor:not-allowed}@media (max-width:991px){.ui-banner-content{padding:0}.flexs{display:flex;flex-direction:column-reverse}ul.ui-banner-list li{font-size:1.6rem}.banner-para sub{font-size:1.1rem;bottom:12px}.dth-hd-img{margin-top:5rem}.list-right-wrap{padding:2rem 0 0!important}}@media (max-width:767px){.popular-search{padding-left:10px}.popular-search a{margin-right:3px}.flexs{display:flex;flex-direction:column-reverse}.row.flexs img{max-width:100%}.popular-search{margin-bottom:50px}#awards_recognize .awards-block{min-height:75rem}.banner-para h1{font-size:3rem}.ime-tips-list{overflow:initial}.pro-code-wrap .tableWrapp td:first-child{width:300px;display:inline-block}.pro-code-wrap .tableWrapp th:nth-child(2){display:inline-block}.input-block input{border-radius:0;letter-spacing:0}.img-cr-pre{margin-top:5rem}img.whatsapp-img{width:auto}.io-img-dth{margin-top:3rem}.input-block input{padding-left:0;margin-left:0;left:0}.common-insurance-blocks .tableWrapp td:first-child{width:300px;display:inline-block}.common-insurance-blocks .tableWrapp th:last-child{width:300px;display:inline-block}.common-insurance-blocks .tableWrapp td{padding-left:20px!important}#Compareplans .tableWrapp td:first-child{width:300px;display:inline-block}#Compareplans .tableWrapp td:nth-child(3){width:200px;display:inline-block}#Compareplans .tableWrapp th:nth-child(2){width:200px;display:inline-block}#Compareplans .tableWrapp th:last-child{width:200px;display:inline-block}}.new_ht h3{padding-top:10px;font-size:15px;line-height:27px;font-weight:300}.list-right-wrap h3{font-size:15px;font-weight:600;margin-bottom:5px}.disclaimer-content{text-align:right;padding-right:35px}.disclaimer-content a{font-size:13px;font-weight:700;color:#ec6608;line-height:21px;text-decoration:underline}ul.arrow-tab-list.green_tick li{width:46%;float:none;color:#fff}.number-tab-list{display:inline-block;text-align:left;width:100%;padding:2rem 0 0}.number-list-container{margin-bottom:15px;display:flex;align-items:flex-start}.number-list-container p{font-weight:400;font-size:16px;line-height:24px;color:#282828}.num_holder{font-weight:800;font-size:20px;line-height:25px;color:#ec6625;margin-right:15px;display:inline-block}.pointer-list-head{font-weight:700;font-size:18px;line-height:23px;color:#fff;margin-bottom:2rem}.pointer-list li{font-weight:400;font-size:16px;line-height:24px;color:#fff;position:relative;padding-left:30px;padding-bottom:10px}.pointer-list li:before{content:"";display:inline-block;background-image:url(/docs/default-source/assets/car-landing-new/images/pointer_bullet.svg);background-repeat:no-repeat;width:100%;height:100%;position:absolute;left:0;top:6px}.pad-rig-4{padding-right:4rem}.pad-lef-4{padding-left:4rem}.secondary-btn{position:relative;cursor:pointer;overflow:hidden;padding:1.3rem 2.4rem;font-size:1.6rem;border-radius:5px;text-decoration:none;outline:none;border:1px solid #ec6625;font-weight:700;text-align:center;background:#fff;color:#ec6625}.secondary-btn:hover{position:relative;background:#fff2eb;border:1px solid #ec6625;color:#ec6625}.secondary-btn:focus-visible{position:relative;background:#fff9f6;border:1px solid #ec6625;color:#ec6625}.secondary-btn:active{position:relative;background:#fff9f6;border:1px solid #bb5106;color:#bb5106}.mar-top-5{margin-top:5rem}.input-block.ripple-bar.js-veh-block.focus a.wit-popuplink{display:inline-block!important}.input-block.ripple-bar.js-veh-block.blockInpdis.focus a.wit-popuplink,.input-block.ripple-bar.js-veh-block.blockInpdis a.wit-popuplink{display:none!important}a.wit-popuplink{position:absolute;right:0;bottom:67px;font-weight:400;text-decoration:underline;color:#fff}.wit-popuplink{display:none}.whtLink{display:inline-block}.js-veh-block.focus .a.wit-popuplink{display:inline-block}a.wit-popuplink:hover,a.wit-popuplink:active{text-decoration:none}.input-block .note a{outline:none}.input-block .note a.js-reg-no{display:none}.input-block.js-veh-block.blockInpdis label sup{display:none}#understand-reg-no .popup.light.js-popup-body.commonpop-pad{max-width:650px}.vehicle-reg-popup{display:inline-block;width:100%;margin:0 auto}.vehicle-reg-popup h2{font-size:2rem;font-weight:700}.vehicle-reg-popup p{font-size:1.6rem;line-height:24px;padding-bottom:1rem}.vehicle-reg-popup p.b-test{color:#004a80;margin-bottom:1rem}.img-para-block{display:inline-block;width:100%;margin:0 auto}.img-para-block img{display:inline-block;vertical-align:top}ul.popup-veh-list{display:inline-block;width:48%;padding-left:3rem}ul.popup-veh-list li{font-size:1.4rem;padding-bottom:2rem;font-weight:400;line-height:21px;position:relative;padding-left:3rem}ul.popup-veh-list li sub{top:2px;font-size:1.4rem;position:absolute;left:0;z-index:1;background:#0ed531;height:2.2rem;width:2.2rem;border-radius:30px;display:inline-block;padding:6px;line-height:11px;font-weight:700}@media (max-width:991px){.input-block .note a{font-size:1.2rem}}@media (max-width:767px){#understand-reg-no .popup.light.js-popup-body.commonpop-pad{margin:7rem auto;border-radius:2rem 2rem 0 0;margin-bottom:0}ul.popup-veh-list{width:100%;padding-left:0;margin-top:2rem}.input-block .note a{font-size:1.2rem}.breadcrumb-main-block .disclaimer-content{text-align:left;padding-top:20px;border-top:1px solid #dfdfdf;margin-top:20px;margin-bottom:20px}a.wit-popuplink{font-size:1.2rem}.pad-rig-4{padding-right:1rem}.pad-lef-4{padding-left:1rem}.pay-you-block .row,.what-factors-impact-idv .row,.what-are-the-benefits .row,.why-renewing-your-car .row{flex-direction:column;justify-content:space-between;align-items:stretch}ul.arrow-tab-list li{margin-right:0}}@media (max-width:400px){.input-block .note a{font-size:1.1rem}}.inc-exc-tab sup{font-size:9px;color:#282828}sup{color:#000;font-size:1rem}.bg-white.insurance-madeeasy-block h2{margin-bottom:30px}.flex-columns{display:flex;flex-wrap:wrap}.row.flex .flex-align{display:flex}.row.flex .covid-pandemic-block.thumbnailBox{flex:1}.covid-pandemic-block{display:inline-block;width:100%;border-radius:10px;border:solid 1px #eaeaea;overflow:hidden}.thumbnailBox img{overflow:hidden;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;transition:all 0.3s ease-in}.cp-contentblock{display:inline-block;width:100%;padding:3rem 2rem}.cp-contentblock h6{font-size:1.8rem;font-weight:600;padding:0;margin-bottom:10px}.cp-contentblock p{display:inline-block;font-size:1.6rem;padding:0;line-height:3rem;margin-bottom:15px;margin-right:1rem;font-weight:400;line-height:24px}.cp-contentblock .date{font-size:14px;padding-bottom:0;float:left;width:100%;color:#6c6c6c}a.read-mr{font-size:1.4rem;color:#ec6608;text-decoration:underline;font-weight:600}.row.flex .covid-pandemic-block.thumbnailBox{flex:1;cursor:pointer}.covid-pandemic-block.thumbnailBox:hover{box-shadow:0 2px 5px 0 rgb(0 0 0 / 13%)}@media (max-width:767px){.row.flex .flex-align{margin-bottom:30px}.covid-pandemic-block{margin-bottom:0;margin-top:0}.read-morebtn{padding-top:25px;float:none;padding-bottom:30px}.p-made-easy{margin-bottom:30px}.bg-white.insurance-madeeasy-block a.btn-white{margin-right:0;margin-top:0}.bg-white.insurance-madeeasy-block.section-content{padding:4rem 0 3rem 0}}.pkg_policy .common-insurance-blocks h3 {font-size: 2rem;line-height: 2.5rem;}
+ a.rMore:visited,a.rMore:focus,a.rMore:active,a.rMore:focus-visible,a.rMore:hover,
+ a.rMore.rLess:visited,a.rMore.rLess:focus,a.rMore.rLess:active,a.rMore.rLess:focus-visible,a.rMore.rLess:hover,
+ a.vMore:visited,a.vMore:focus,a.vMore:active,a.vMore:focus-visible,a.vMore:hover,
+ a.vMore.vLess:visited,a.vMore.vLess:focus,a.vMore.vLess:active,a.vMore.vLess:focus-visible,a.vMore.vLess:hover{color:#fe6625;text-decoration: underline;}
+
+
+/* car widget new UI */
+
+.banner-content h1 {
+    margin: 0;
+}
+.carlanding-wrap .bannerTitle {
+    font-size: 2.8rem;
+}
+.banner-content ul {
+    display: block;
+}
+.banner-content ul li {
+    width: 100%;
+    background: linear-gradient(270deg, #ffffff -9.13%, #fff2eb 100%);
+    border: none;
+    margin-bottom: 1rem;
+    width: 60%;
+    padding: 1rem 2rem;
+}
+.carlanding-wrap::before {
+    display: none;
+}
+/*.carlanding-form-block .form-group{
+        display: none;
+    }*/
+.banner-content {
+    width: 60%;
+    position: relative;
+    padding: 5rem 0 0;
+}
+.carlanding-wrap.section-content {
+    padding: 3rem 0 10rem 0;
+}
+.carlanding-wrap .widget-mn-img {
+    top: 3rem;
+    right: 0;
+    bottom: auto;
+    position: absolute;
+}
+.banner-content ul li span {
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+}
+.ui-submit-btn a:nth-child(2) {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    background: #fff2eb;
+    border: none;
+    color: #ec6625;
+    text-decoration: underline;
+    width: 88%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.ui-submit-btn a:first-child {
+    margin-bottom: 2rem;
+}
+.carlanding-wrap .bannerFormblock {
+    position: relative;
+    padding: 35px 30px 15px;
+}
+.il-input-block {
+    margin-bottom: 2.5rem;
+}
+.wid-mob-content {
+    display: none;
+}
+.wid-mob-im {
+    display: none;
+}
+span.tpSpn:after {
+    background: linear-gradient(270deg, #ffffff 0%, #c9c9c9 100%);
+}
+.ui-submit-btn a:last-child {
+    display: none;
+}
+.ui-card-wrap .card-block {
+    background: #fff;
+    border: none;
+}
+#navjumpid li button.btn.btn-whites {
+    background: #ec6608;
+    padding: 8px;
+    min-width: 100px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    border: 0;
+}
+span.tpSpn {
+    font-size: 1.2rem;
+}
+#keyboardbindLast {
+    display: block;
+    width: 100%;
+}
+a#whatReg {
+    color: #ec6625;
+}
+.ui-submit-btn a:nth-child(3) {
+    margin: 2rem 0;
+}
+.ui-submit-btn {
+    margin: 3rem 0 0;
+}
+.banner-content ul li span span {
+    padding: 0;
+}
+.carlanding-form-block .il-input-block:first-child {
+    margin-bottom: 2.5rem;
+}
+@media (max-width: 1280px) {
+    .carlanding-wrap .bannerTitle {
+        font-size: 2rem;
+    }
+    #fw_jumplink .jump-list li {
+        margin-right: 12px;
+    }
+    .banner-content ul li {
+        width: 100%;
+    }
+    .banner-content ul li span {
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+    .wid-desk-im {
+        width: 65%;
+        float: right;
+    }
+    .carlanding-wrap .widget-mn-img {
+        top: auto;
+        bottom: 0;
+    }
+    .banner-content ul li span {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 991px) {
+    .wid-desk-im {
+        display: none;
+    }
+    .wid-mob-im {
+        display: block;
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .carlanding-wrap .widget-mn-img {
+        position: relative;
+        padding-bottom: 5rem;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .carlanding-wrap .bannerTitle {
+        font-size: 2rem;
+        line-height: normal;
+        padding-top: 0;
+    }
+    .carlanding-wrap.section-content {
+        padding: 3rem 0 0 0;
+    }
+    .carlanding-wrap ul li span {
+        font-size: 1.4rem;
+    }
+    .carlanding-wrap .widget-mn-img {
+        top: 0;
+    }
+    .banner-content {
+        padding: 0;
+    }
+    section#why {
+        padding-bottom: 6rem !important;
+    }
+    span.tpSpn {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+    }
+    .ui-submit-btn a:nth-child(2) {
+        bottom: -36px;
+        width: 88%;
+        padding: 7px 0 13px;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 767px) {
+    .banner-content ul li span span {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .wid-mob-content {
+        display: block;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .banner-content ul li {
+        width: 100%;
+        margin-right: 0;
+        flex: none;
+        min-height: auto;
+        padding: 0.8rem 1rem;
+    }
+    .banner-content {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .banner-content ul li img {
+        display: none;
+    }
+
+    .banner-content ul li span {
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+    #mobile_quoteavail {
+        font-size: 1.4rem !important;
+    }
+    #mobile_quotecnt {
+        font-size: 14px;
+    }
+    .toggle-panel-wrapper .blue-strip {
+        height: auto;
+        padding: 8px 10px;
+    }
+    .toggle-panel-wrapper .blue-strip:after {
+        top: 18px;
+        width: 1rem;
+        height: 1rem;
+    }
+    .section-content h2 {
+        font-size: 2.4rem;
+    }
+    .owl-carousel {
+        z-index: 0;
+    }
+    .carlanding-wrap .bannerFormblock {
+        border: 1px solid #e6e6e6;
+        padding: 2rem;
+        margin: 0;
+    }
+    .wid-mob-content h2 {
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 0;
+    }
+    .wid-mob-content span.tpSpn {
+        display: block;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    span.tpSpn:after {
+        display: none;
+    }
+    .carlanding-wrap .widget-mn-img {
+        top: auto;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+    }
+    .wid-mob-im {
+        display: block;
+    }
+
+    .carlanding-wrap.section-content {
+        padding: 1rem 0 8rem 0;
+    }
+    input.default-input {
+        padding: 1.3rem;
+    }
+    .il-input-block label {
+        font-size: 1.3rem;
+        left: 15px;
+        top: 15px;
+    }
+    .wid-desk-content {
+        display: none;
+    }
+    .banner-content ul li span img {
+        display: inline;
+    }
+    .banner-content ul li span {
+        padding: 0rem 1rem;
+    }
+    .fixedBtn {
+        top: auto;
+        bottom: 0;
+    }
+    .ui-submit-btn a:first-child {
+        margin-bottom: 0;
+    }
+    .ui-submit-btn {
+        padding: 5px;
+        text-align: center;
+    }
+    .carlanding-form-block .il-input-block:first-child {
+        margin-bottom: 2.5rem;
+    }
+    .ui-submit-btn a:nth-child(3) {
+        text-align: center;
+    }
+    .toggle-panel-wrapper {
+        margin-bottom: 15px;
+    }
+    .carlanding-wrap .widget-mn-img {
+        padding-bottom: 0;
+    }
+    .wid-mob-im {
+        border-bottom: none;
+    }
+    .ui-submit-btn a:nth-child(3) {
+        margin: 2rem 0 1rem;
+    }
+    .iltc-wrapper {
+        display: none !important;
+    }
+    .il-header .top-menu-wrap.pad-Top {
+        padding-top: 0 !important;
+    }
+}
+/* car widget new UI */
+ 
+ /* exit intent popup css*/
+    .popoverlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        -webkit-transition: opacity 0.2s;
+        transition: opacity 0.2s;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 10;
+    }
+    .popoverlay.active {
+    visibility: visible;
+    opacity: 1;
+    overflow: auto;
+    z-index: 100000;
+    height: 100%;
+    width: 100%;
+}
+    #fw-landing-exitintent .popup {
+        max-width: 878px;
+        background: #e1f4fd;
+        background: linear-gradient(180deg, #FFFDF5 0%, #FBDBDB 100%);
+    }
+    #fw-landing-exitintent .content-block{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .il-pop-newui .content-block h2 {
+        font-size: 3.8rem;
+        font-weight: 900;
+    }
+
+    .il-pop-newui .content-block span {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .il-pop-newui .content-block p {
+        padding: 1rem 0 0;
+        font-size: 1.6rem;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    .il-pop-newui .content-block {
+        position: relative;
+        padding: 5rem 3rem;
+    }
+
+    .il-pop-newui .popup-btn-block a {
+        width: 100%;
+    }
+
+    .il-pop-newui .popup-btn-block {
+        margin: 0;
+        display: block;
+    }
+    .extint-left-block {
+    width: 50%;
+}
+
+.extint-right-block ul li {
+    background: linear-gradient(268.77deg, #006AB7 2.25%, #00305B 101.11%);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: auto;
+}
+#fw-landing-exitintent .il-input-block{
+    margin: 2rem 0;
+}
+
+.il-pop-newui .extint-right-block ul li span {
+    color: #fff;
+    vertical-align: middle;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    line-height: 38px;
+}
+.fw-widget-wrap .toggle-panel-wrapper.motor-quote-wrap{
+    z-index: 1;
+}
+
+.extint-right-block {
+    padding: 5rem 0 0;
+    width: 42%;
+}
+.extint-left-block span.ui-error {
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: static;
+}
+    @media(max-width: 767px){
+        #fw-landing-exitintent{
+            display: none !important;
+        }
+    }
+    /* exit intent popup css*/
+
+    /****New design changes Start****/
+.new-old-car-block {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.new-old-car-block:before,
+.new-old-car-block:after {
+    content: "";
+    position: absolute;
+    height: 467px;
+    width: 50%;
+}
+
+.new-old-car-block:before {
+    background: linear-gradient(270.02deg, #FFFFFF 9.19%, #FFF2EB 99.98%);
+    left: 0;
+    top: 0;
+}
+
+.new-old-car-block:after {
+    background: linear-gradient(89.98deg, #FFFFFF 18.31%, #E1F4FD 99.98%);
+    right: 0;
+    top: 0;
+}
+
+.new-car-block {
+    padding-right: 45px;
+}
+
+.old-car-block {
+    padding-left: 55px;
+} 
+
+.divider img {
+    position: relative;
+    left: -75px;
+    top: -60px;
+}
+
+.z-block {
+    z-index: 999;
+}
+
+.block-title {
+    font-size: 3.6rem;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 3.5rem 0 2.5rem 0;
+}
+
+.info {
+    font-size: 1.6rem;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+section.section-content.pay-you-block {
+    background: #fff;
+}
+
+.bg-lightpink {
+    background: #fffef3;
+}
+
+.bg-lightgray {
+    background: #fff9f6;
+}
+
+.bg-gray {
+    background: #f8f6f6;
+}
+
+ul.arrow-tab-list.green_tick li {
+    color: #282828;
+    font-weight: 400;
+}
+
+/*.evs-block .pad-top1{
+    padding-right: 10rem;
+}*/
+
+.key-features .table_wrapper{
+
+    margin: 30px auto 0 auto;
+}
+
+.inc-exc-tab .tab-head li{
+
+    font-size: 1.6rem;
+    font-weight: 700;
+/*    padding: 1.4rem 1.4rem;*/
+}
+
+.inc-exc-tab .tab-head{
+
+    margin-bottom: 3rem;
+}
+
+#Addons .img-wrap {
+    min-height: 45px;
+}
+
+.how-does-icici-work-block .pad-word-wrap{
+    margin-bottom: 2.8rem;
+}
+
+.whitebox_ht .common-insurance-blocks h3,
+#onlinepolicy .common-insurance-blocks h3,
+#Addons .common-insurance-blocks h3{
+    font-weight: 700;
+}
+
+.whitebox_ht .common-insurance-blocks p,
+#onlinepolicy .common-insurance-blocks p{
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.common-insurance-blocks h3{
+    font-weight: 700 !important;
+}
+
+.track_ins .input-block label{
+    background: transparent;
+    left: 0;
+    padding: 0;
+}
+
+.table_wrapper.pro-code-wrap{
+    width: 90%;
+}
+
+ul.arrow-tab-list li {
+    font-weight: 400;
+}
+
+
+.tab-head li {
+    letter-spacing: 0;
+}
+
+.premium_calulation ul.arrow-tab-list li, .save_premium ul.arrow-tab-list li {
+    padding-bottom: 1.5rem;
+}
+
+.premium_calulation ul.arrow-tab-list li:last-child, .save_premium ul.arrow-tab-list li:last-child {
+    padding-bottom: 0;
+}
+
+ul.arrow-tab-list.green_tick li {
+    padding-bottom: 1.5rem;
+}
+
+.submit_detach div.text-center {
+    position: relative;
+    top: -15px;
+}
+
+.evs-block img {
+    float: right;
+}
+
+.package-policy-wording {
+    padding-top: 4rem;
+}
+
+#why .sec-head {
+    font-size:  3.6rem;
+    line-height: 45px;
+    font-weight: 700;
+} 
+
+@media (max-width: 991px) {
+    .new-old-car-block {
+        background: linear-gradient(180deg, #fff2eb 0%, #ffffff 39%, #ffffff 55.5%, #e1f4fd 100%);
+        padding: 4rem 1rem;
+    }
+
+    .new-old-car-block:before,
+    .new-old-car-block:after {
+        display: none;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .new-car-block, .old-car-block {
+        padding: 0;
+    }
+
+    .new-car-block {
+        margin-bottom: 6rem;
+    }
+
+    .block-title {
+        font-size: 2.4rem;
+        line-height: 30px;
+        margin: 3rem 0 2rem;
+    }
+
+    .z-block {
+        z-index: inherit;
+    }
+
+    .mt-2 {
+        margin-top: 2rem;
+    }
+
+    .evs-block .pad-top1 {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width:  768px) {
+    #why .text-center {
+        text-align: left;
+    }
+
+    #why .sec-head {
+        font-size: 2.4rem;
+        line-height: 30px;
+    }
+
+    .section-content {
+        padding: 4rem 1rem 4rem 1rem;
+    }
+
+    .why-renewing-your-car .row.renew-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .why-renewing-your-car .row.renew-flex img {
+        margin-top:  3rem;
+    }
+
+    .right-policy-holder {
+        min-height: auto;
+    }
+
+    section.section-content.pay-you-block {
+        padding: 4rem 0;
+    }
+}
+
+/****New design changes End****/
+
+/********************* faqs reg no ui ********************/
+
+.il-check-premium {
+    width: 100%;
+    background: #fff;
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    clear: both;
+    margin: 3rem auto;
+    max-width: 450px;
+}
+
+.il-check-premium .il-flex {
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.il-check-premium h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    line-height: normal;
+}
+
+.il-check-premium .il-input-block {
+    margin: 0;
+}
+.il-check-premium a.primary-btn {
+    color: #fff;
+    padding: 1.1rem 2.4rem;
+    font-size: 1.6rem;
+    background: #ec6625;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    text-align: center;
+}
+.il-check-premium a.primary-btn:hover{
+    background: #fd7b20;
+    color: #fff;
+}
+.il-check-premium .il-input-block {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.il-check-premium .il-input-block label {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #838383;
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    background-color: #fff;
+    transition: 0.3s all ease;
+    pointer-events: none;
+}
+.il-check-premium .il-input-block input {
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    background: #ffff;
+    padding: 1.7rem;
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #282828;
+    outline: none;
+    text-transform: uppercase;
+}
+.il-check-premium .il-input-block input:hover {
+    border: 1px solid #282828;
+}
+.il-check-premium .il-input-block.focus label {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    top: -7px;
+    left: 11px;
+    padding: 0 7px;
+    z-index: 2;
+    transition: 0.3s all ease;
+}
+.il-check-premium .il-input-block.onFocused label {
+    color: #ec6625;
+}
+.il-check-premium .il-input-block.onFocused input {
+    border: 2px solid #ec6625;
+}
+.il-check-premium .il-check-premium span.ui-error {
+    position: static;
+    display: none;
+}
+.il-check-premium span.ui-error {
+    position: static;
+    display: block;
+}
+@media (max-width: 991px) {
+    .il-check-premium {
+        width: 65%;
+    }
+}
+@media (max-width: 767px) {
+    .il-check-premium {
+        width: 100%;
+    }
+    .il-check-premium input::placeholder {
+        font-size: 1.1rem;
+    }
+
+    .il-check-premium .il-flex{
+        flex-direction: column;
+    }
+    .il-check-premium a.primary-btn {
+        width: 100%;
+
+    }
+}
+span.ui-error {
+    font-size: 1.2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: -6px;
+    color: #e71a1a;
+    font-weight: 400;
+    left: 0;
+    text-align: left;
+}
+/********************* faqs reg no ui ********************/
+
+
+/*****Language Translator Style Start******/
+
+/****Malayalam Language Start****/
+.fw-malayalam h1 {
+    font-size:  3rem;
+}
+
+.fw-malayalam h2, .fw-malayalam .tw-widgetnewlook .ui-banner-content span {
+    font-size:  2.5rem;
+}
+
+.fw-malayalam h3 {
+    font-size: 2rem;
+}
+
+.fw-malayalam p, .fw-malayalam input, .fw-malayalam li, .fw-malayalam .showroom-price table td, .fw-malayalam .showroom-price table th, .fw-malayalam .common-insurance-blocks p, .fw-malayalam .flex-column .common-insurance-blocks h4, .fw-malayalam .cp-contentblock h6, .fw-malayalam a.btn-white {
+    font-size: 1.2rem !important;
+}
+
+.fw-malayalam span, .fw-malayalam p a, .fw-malayalam label {
+     font-size: 1.1rem;
+}
+
+.fw-malayalam sup {
+    font-size: 7px;
+}
+
+.fw-malayalam .customer-love-sec p, .fw-malayalam .section-content.brief-block p, .fw-malayalam .contactless p, .fw-malayalam .benefits-block .sub-info, .fw-malayalam .inclusions-tab ul li h3, .fw-malayalam .share-info h3 {
+    font-size: 1.4rem;
+}
+
+.fw-malayalam  .ui-policy-documents p a, .fw-malayalam  .cp-contentblock .date {
+    font-size: 1rem;
+}
+
+.fw-malayalam .bike-proceed li span, .fw-malayalam .compare-block .bord-bot h3 {
+    font-size: 2rem;
+}
+
+.fw-malayalam .bike-proceed li a, .fw-malayalam .il-check-premium .il-input-block label, .fw-malayalam .il-check-premium .il-input-block input, .fw-malayalam .frequent-accordian .il-accordion-title h3
+  {
+    font-size: 1.2rem;
+}
+
+.fw-malayalam .section-content.new-old-block h2 {
+    font-size: 2.4rem;
+}
+
+.fw-malayalam .types-plan h3, .fw-malayalam .features h3, .fw-malayalam .bike-proceed li, .fw-malayalam .share-info h3, .fw-malayalam .benefits-block .sub-info {
+    font-size: 1.6rem;
+}
+
+.fw-malayalam .il-check-premium a.primary-btn {
+    padding: 1.1rem 1.2rem;
+    font-size: 1.1rem;
+}
+
+.fw-malayalam #fw_jumplink .jump-list li {
+    margin-right: 10px;
+}
+
+.fw-malayalam #fw_jumplink .jump-list li a {
+    font-size: 1rem;
+}
+
+.fw-malayalam .top-menu-wrap.bg-lightgray a, .fw-malayalam .right-top-menu li a {
+    font-size: 1rem;
+}
+
+.fw-malayalam .top-sub-list li a {
+    font-size: 1.1rem;
+}
+
+.fw-malayalam .buy-renewal .bike-proceed li {
+    font-size: 1.7rem !important;
+}
+ 
+.fw-malayalam .form-box .input-block .note a {
+    font-size: 1rem;
+}
+
+.fw-malayalam .customer-love-sec .ui-card-wrap .card-block h3 {
+    font-size: 2.2rem;
+}
+
+
+.fw-malayalam .link-btn {
+    font-size:  12px;
+}
+
+.fw-malayalam .link-wrap a {
+    font-size:  0.9rem;
+}
+
+.fw-malayalam #why .sec-head {
+    font-size: 2.8rem;
+}
+
+.fw-malayalam .ui-card-wrap .card-block span {
+    font-size:  1.6rem;
+}
+
+.fw-malayalam .input-block.focus label, .fw-malayalam a.check-terms-condition {
+    font-size:  1rem;
+}
+
+.fw-malayalam .view-more-content .paraHide {
+    display: inline-block;
+}
+
+.fw-malayalam .il-pop-newui .content-block h2 {
+    font-size: 3.2rem;
+}
+
+.fw-malayalam .primary-btn, .fw-south .primary-btn {
+    font-size:  1.2rem;
+}
+
+.fw-malayalam .extint-right-block ul li, .fw-south .extint-right-block ul li {
+    width: 100%;
+}
+
+.fw-malayalam .il-pop-newui .extint-right-block ul li span, .fw-south .il-pop-newui .extint-right-block ul li span {
+    font-size:  1.6rem;
+}
+
+.fw-malayalam .banner-content ul li span, .fw-south .banner-content ul li span {
+    font-size: 1rem;
+}
+
+.fw-malayalam span, .fw-malayalam p a, .fw-malayalam label, .fw-south span, .fw-south p a, .fw-south label {
+    font-size: 1rem;
+}
+
+.fw-malayalam .ui-policy-documents p > span, .fw-south .ui-policy-documents p > span {
+    font-size: 1rem;
+}
+
+.ui-policy-documents p a {
+    padding-left: 8rem;
+}
+
+
+.fw-malayalam .additional-discount .link-btn,  .fw-south .additional-discount .link-btn {
+    right:  16px;
+}
+
+/****Malayalam Language End****/
+
+
+/****Tamil/Telugu Language Start****/
+.fw-south h1 {
+    font-size:  3rem;
+}
+
+.fw-south h2, .fw-south .tw-widgetnewlook .ui-banner-content span {
+    font-size:  2.5rem;
+}
+
+.fw-south h3 {
+    font-size: 2rem;
+}
+
+.fw-south p, .fw-south input, .fw-south li, .fw-south .showroom-price table td, .fw-south .showroom-price table th, .fw-south .common-insurance-blocks p, .fw-south .flex-column .common-insurance-blocks h4, .fw-south .cp-contentblock h6, .fw-south a.btn-white {
+    font-size: 1.2rem !important;
+}
+
+.fw-south span, .fw-south p a, .fw-south label {
+     font-size: 1.1rem;
+}
+
+.fw-south sup {
+    font-size: 7px;
+}
+
+.fw-south .customer-love-sec p, .fw-south .section-content.brief-block p, .fw-south .contactless p, .fw-south .benefits-block .sub-info, .fw-south .inclusions-tab ul li h3, .fw-south .share-info h3 {
+    font-size: 1.4rem;
+}
+
+.fw-south  .ui-policy-documents p a, .fw-south  .cp-contentblock .date {
+    font-size: 1rem;
+}
+
+.fw-south .bike-proceed li span, .fw-south .compare-block .bord-bot h3 {
+    font-size: 2rem;
+}
+
+.fw-south .bike-proceed li a, .fw-south .il-check-premium .il-input-block label, .fw-south .il-check-premium .il-input-block input, .fw-south .frequent-accordian .il-accordion-title h3
+  {
+    font-size: 1.3rem;
+}
+
+.fw-south .section-content.new-old-block h2 {
+    font-size: 2.5rem;
+}
+
+.fw-south .types-plan h3, .fw-south .features h3, .fw-south .bike-proceed li, .fw-south .share-info h3, .fw-south .benefits-block .sub-info {
+    font-size: 1.6rem;
+}
+
+.fw-south .il-check-premium a.primary-btn {
+    padding: 1.1rem 1.2rem;
+    font-size: 1.1rem;
+}
+
+.fw-south #fw_jumplink .jump-list li {
+    margin-right: 10px;
+}
+
+.fw-south #fw_jumplink .jump-list li a, .fw-south #fw_jumplink .jump-list li button {
+    font-size: 0.8rem;
+}
+
+.fw-south .top-menu-wrap.bg-lightgray a, .fw-south .right-top-menu li a {
+    font-size: 1rem;
+}
+
+.fw-south .top-sub-list li a {
+    font-size: 1.1rem;
+}
+
+.fw-south .buy-renewal .bike-proceed li {
+    font-size: 1.7rem !important;
+}
+
+.fw-south .form-box .input-block .note a {
+    font-size: 1rem;
+}
+
+.fw-south .customer-love-sec .ui-card-wrap .card-block h3 {
+    font-size: 2.3rem;
+}
+
+.fw-south span.ui-error, .tw-malayalam span.ui-error {
+    font-size: 0.8rem !important;
+}
+
+.fw-south .toggle-panel-wrapper .continue-journey, .tw-malayalam .toggle-panel-wrapper .continue-journey {
+    font-size: 1.1rem;
+}
+
+
+
+.fw-south .link-btn {
+    font-size:  12px;
+}
+
+.fw-south .link-wrap a {
+    font-size:  0.9rem;
+}
+
+.fw-south #why .sec-head {
+    font-size: 2.8rem;
+}
+
+.fw-south .ui-card-wrap .card-block span {
+    font-size:  1.6rem;
+}
+
+.fw-south .input-block.focus label, .fw-south a.check-terms-condition {
+    font-size:  1rem;
+}
+
+.fw-south .view-more-content .paraHide {
+    display: inline-block;
+}
+
+.fw-south .il-pop-newui .content-block h2 {
+    font-size: 3.4rem;
+}
+
+
+/****Tamil/Telugu Language End****/
+
+
+/****Hindi Language Start****/
+.fw-hindi h1 {
+    font-size:  3.4rem;
+}
+
+.fw-hindi h2, .fw-hindi .tw-widgetnewlook .ui-banner-content span {
+    font-size:  2.8rem;
+}
+
+.fw-hindi h3 {
+    font-size: 2.4rem;
+}
+
+.fw-hindi p, .fw-hindi input, .fw-hindi li, .fw-hindi .showroom-price table td, .fw-hindi .showroom-price table th, .fw-hindi .common-insurance-blocks p, .fw-hindi .flex-column .common-insurance-blocks h4, .fw-hindi .cp-contentblock h6, .fw-hindi a.btn-white {
+    font-size: 1.4rem !important;
+}
+
+.fw-hindi span, .fw-hindi p a, .fw-hindi label {
+     font-size: 1.3rem;
+}
+
+.fw-hindi sup {
+    font-size: 9px;
+}
+
+.fw-hindi .customer-love-sec p, .fw-hindi .section-content.brief-block p, .fw-hindi .contactless p, .fw-hindi .benefits-block .sub-info, .fw-hindi .inclusions-tab ul li h3, .fw-hindi .share-info h3 {
+    font-size: 1.6rem;
+}
+
+.fw-hindi  .ui-policy-documents p a, .fw-hindi  .cp-contentblock .date {
+    font-size: 1.2rem;
+}
+
+.fw-hindi .bike-proceed li span, .fw-hindi .compare-block .bord-bot h3 {
+    font-size: 2.4rem;
+}
+
+.fw-hindi .bike-proceed li a, .fw-hindi .il-check-premium .il-input-block label, .fw-hindi .il-check-premium .il-input-block input, .fw-hindi .frequent-accordian .il-accordion-title h3
+  {
+    font-size: 1.4rem;
+}
+
+.fw-hindi .section-content.new-old-block h2 {
+    font-size: 2.8rem;
+}
+
+.fw-hindi .types-plan h3, .fw-hindi .features h3, .fw-hindi .bike-proceed li, .fw-hindi .share-info h3, .fw-hindi .benefits-block .sub-info {
+    font-size: 1.8rem;
+}
+
+.fw-hindi .buy-renewal .bike-proceed .bord-bot {
+    overflow: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.fw-hindi .il-check-premium a.primary-btn {
+    padding: 1.1rem 1.2rem;
+    font-size: 1.1rem;
+}
+
+.fw-hindi .buy-renewal .bike-proceed li {
+    font-size: 1.8rem !important;
+}
+
+.fw-hindi .view-more-content .paraHide {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    ul.popup-veh-list, .frequent-accordian .il-accordion {
+        width: 100% !important;
+    }
+
+    .fw-hindi .section-content .rating_count h2, .fw-south .section-content .rating_count h2, .fw-malayalam .section-content .rating_count h2 {
+        font-size: 1.8rem;
+    }
+
+    .fw-hindi .rating_count img, .fw-south .rating_count img, .fw-malayalam .rating_count img {
+        width: 40%;
+    }
+
+    .fw-hindi .benefits-content-main.benefit-finances .idv-para-detach span {
+        font-size: 1.6rem
+    }
+
+    .fw-south .benefits-content-main.benefit-finances .idv-para-detach span, .fw-malayalam .benefits-content-main.benefit-finances .idv-para-detach span {
+        font-size: 1.4rem
+    }
+
+    .fw-malayalam .tab-head li, .fw-south .tab-head li {
+        padding:  1.2rem;
+    }
+
+    .fw-malayalam h2, .fw-malayalam .tw-widgetnewlook .ui-banner-content span {
+        word-break: break-word;
+    }
+
+    .fw-malayalam .garages-search-block small, .fw-south .garages-search-block small {
+        font-size: 0.9rem;
+        top:  0;
+    }
+}
+
+/****Hindi Language End****/
+
+/*****Language Translator Style End******/

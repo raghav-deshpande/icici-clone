@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<svg width="52" height="36" viewBox="0 0 52 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M44.8698 16.0501V34.3201H6.7998V15.8601" stroke="#004C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1.63965 34.3201H50.3596" stroke="#004C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M22.4401 20.77H13.5801V34.32H22.4401V20.77Z" stroke="#004C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M39.7097 20.77H27.4497V27.54H39.7097V20.77Z" stroke="#004C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M39.7101 1.32007H12.6101L3.58008 6.97007V11.5401C3.58008 14.0301 5.60008 16.0601 8.10008 16.0601C10.6001 16.0601 12.6201 14.0401 12.6201 11.5401C12.6201 14.0301 14.6401 16.0601 17.1401 16.0601C19.6301 16.0601 21.6601 14.0401 21.6601 11.5401C21.6601 14.0301 23.6801 16.0601 26.1801 16.0601C28.6801 16.0601 30.7001 14.0401 30.7001 11.5401C30.7001 14.0301 32.7201 16.0601 35.2201 16.0601C37.7201 16.0601 39.7401 14.0401 39.7401 11.5401C39.7401 14.0301 41.7601 16.0601 44.2601 16.0601C46.7601 16.0601 48.7801 14.0401 48.7801 11.5401V6.97007L39.7501 1.32007H39.7101Z" stroke="#FF5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M27.6898 7.06006H3.81982" stroke="#FF5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M33.5801 20.77V27.54" stroke="#004C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
