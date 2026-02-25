@@ -448,23 +448,6 @@ gc){if(0!==Pb.length){Ab=cb.av;Eb=Pb;let hc=[];for(let $b of Eb)hc.push($b.Dg+"|
 <script async="" src="https://microapps.google.com/apis/v1alpha/microapps.js"></script>
 <script type="text/javascript" src="/includes_new/js/common/IL_GTM.js?ver=05012024" defer=""></script>
 
-<!-- Improve Best Practices: ensure external blank links are safe and hide chat until idle -->
-<style>
-    .chat-ico, .chat-ico-open { visibility: hidden; opacity: 0; pointer-events: none; }
-</style>
-<script>
-    // Add rel=noopener to target=_blank links to satisfy Best Practices
-    (function(){
-        function safeLinks(){
-            try{
-                var elms=document.querySelectorAll('a[target="_blank"]');
-                for(var i=0;i<elms.length;i++){var a=elms[i];if(!a.rel||a.rel.indexOf('noopener')===-1){a.rel=(a.rel? a.rel+' ':'')+'noopener noreferrer';}}
-            }catch(e){}
-        }
-        if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',safeLinks);else safeLinks();
-    })();
-</script>
-
 <!-- <script type="application/ld+json"> -->
 <script type="text/javascript">
     $(document).ready(function () {
@@ -9253,23 +9236,6 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }catch(e){}
 });
-</script>
-
-<script>
-    // Reveal chat icons and load their images after the main work is done to reduce critical path
-    (function(){
-        function loadChat(){
-            try{
-                var imgs = document.querySelectorAll('.chat-ico img[data-src], .chat-ico-open img[data-src]');
-                imgs.forEach(function(img){
-                    if(img.dataset && img.dataset.src){ img.src = img.dataset.src; }
-                });
-                var els = document.querySelectorAll('.chat-ico, .chat-ico-open');
-                els.forEach(function(el){ el.style.visibility='visible'; el.style.opacity=1; el.style.pointerEvents='auto'; });
-            }catch(e){}
-        }
-        if('requestIdleCallback' in window) requestIdleCallback(loadChat,{timeout:3000}); else setTimeout(loadChat,2500);
-    })();
 </script>
 
 
