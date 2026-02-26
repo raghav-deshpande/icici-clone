@@ -591,14 +591,29 @@ f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+
 
 </script>
 <meta name="description" content="Buy/renew car insurance policy online with ICICI Lombard. Enjoy cashless repairs, roadside assistance, and quick claims. Get a four-wheeler insurance quote now!">
-<script type="text/javascript">
-/* Google Tag Manager */
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KGPSMP');
-/* End Google Tag Manager */
+<script>
+window.dataLayer = window.dataLayer || [];
+
+window.addEventListener("load", function () {
+    setTimeout(function () {
+
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+
+            var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),
+                dl=l!='dataLayer'?'&l='+l:'';
+
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+            f.parentNode.insertBefore(j,f);
+
+        })(window,document,'script','dataLayer','GTM-KGPSMP');
+
+    }, 2000); // 2 second delay
+});
 </script><meta name="Generator" content="Sitefinity 12.0.7000.0 OME">
 <title>Buy/Renew Car Insurance Online, Starting @ ₹2094</title>
 <meta name="keywords" content="car insurance, car insurance online, car insurance policy, car insurance price, four wheeler insurance, buy car insurance">
@@ -981,16 +996,23 @@ Sys.Application._enableHistoryInScriptManager();
                                                 </li>
 
                                                 <li>
-                                                    <a href="/health-insurance/health-booster?opt=ab&amp;source=nav">
-                                                        <div class="product-logo">
-                                                            <img loading="lazy" src="/docs/default-source/assets/header-revamp/images/ab-nav-logo.svg">
-                                                        </div>
+                                                    <a href="/health-insurance/health-booster?opt=ab&source=nav" class="product-link">
+    
+    <span class="product-logo">
+        <img 
+            src="/docs/default-source/assets/header-revamp/images/ab-nav-logo.svg"
+            alt="Activate Booster Logo"
+            width="40"
+            height="40"
+        >
+    </span>
 
-                                                        <div class="product-name">
-                                                            <p>Activate Booster</p>
-                                                            <span class="menu-subtxt">Boost your coverage with super top-up</span>
-                                                        </div>
-                                                    </a>
+    <span class="product-name">
+        <strong>Activate Booster</strong>
+        <span class="menu-subtxt">Boost your coverage with super top-up</span>
+    </span>
+
+</a>
                                                 </li>
 
                                                 <li>
