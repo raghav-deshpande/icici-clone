@@ -5,6 +5,16 @@ const nextConfig = {
   // Security Headers
   async headers() {
     return [
+      // Static asset caching
+      {
+        source: '/:all*.(js|css|png|jpg|jpeg|gif|svg|webp|avif|ico|ttf|woff|woff2|eot)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          }
+        ]
+      },
       {
         source: '/:path*',
         headers: [

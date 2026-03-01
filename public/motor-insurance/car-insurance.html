@@ -65,9 +65,10 @@
     <meta name="format-detection" content="telephone=yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="preconnect" href="https://www.google-analytics.com" />
-    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    
     <script>
       // akam-sw.js install script version 1.3.6
       "serviceWorker" in navigator &&
@@ -12863,16 +12864,7 @@
     />
 
     <!-- Performance / SEO improvements: preconnect critical origins and structured data -->
-    <link
-      rel="preconnect"
-      href="https://www.googletagmanager.com"
-      crossorigin
-    />
-    <link
-      rel="preconnect"
-      href="https://www.google-analytics.com"
-      crossorigin
-    />
+    
 
     <script type="application/ld+json">
       {
@@ -12891,16 +12883,48 @@
 
     <link
       rel="preload"
-      href="/docs/default-source/apps/fwfresh/fw-landing/css/lombard-car-insurance-landing.css?ver=29012025"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
+      as="style"
       href="/docs/default-source/apps/fwfresh/fw-landing/css/lombard-car-insurance-landing.css?ver=29012025"
       type="text/css"
     />
     <link
       rel="preload"
+      as="image"
+      href="/docs/default-source/apps/fwfresh/fw-landing/images/widget-men-vector.png"
+      imagesrcset="/docs/default-source/apps/fwfresh/fw-landing/images/widget-men-vector.png"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/docs/default-source/apps/fwfresh/fw-landing/images/widget-mob-vector.png"
+      media="(max-width: 767px)"
+      imagesrcset="/docs/default-source/apps/fwfresh/fw-landing/images/widget-mob-vector.png"
+    />
+    <style>
+      /* Critical CSS (~1KB) for above-the-fold hero */
+      .carlanding-wrap.section-content{padding:3rem 0 10rem 0}
+      .banner-content{width:60%;position:relative;padding:5rem 0 0}
+      .carlanding-wrap .widget-mn-img{top:3rem;right:0;bottom:auto;position:absolute}
+      .wid-desk-im{display:block;max-width:100%;height:auto}
+      .wid-mob-im{display:none;max-width:100%;height:auto}
+      @media (max-width:991px){
+        .banner-content{width:100%;padding:0}
+        .carlanding-wrap.section-content{padding:3rem 0 0 0}
+        .carlanding-wrap .widget-mn-img{position:relative;padding-bottom:5rem;top:0}
+        .wid-desk-im{display:none}
+        .wid-mob-im{display:block}
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="/docs/default-source/apps/fwfresh/fw-landing/css/lombard-car-insurance-landing.css?ver=29012025"
+      type="text/css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      rel="preload"
+      as="style"
       href="/docs/default-source/assets/freshlook/car_landing_new_design.css?ver=07022025"
       type="text/css"
     />
@@ -12908,6 +12932,8 @@
       rel="stylesheet"
       href="/docs/default-source/assets/freshlook/car_landing_new_design.css?ver=07022025"
       type="text/css"
+      media="print"
+      onload="this.media='all'"
     />
     <link
       rel="preload"
@@ -13893,7 +13919,7 @@
             href="/docs/default-source/assets/home-revamp/css/il-web-header-footer-style.css?ver=25112025"
             type="text/css"
           />
-          <script src="/docs/default-source/assets/js/uicommon/js-enc-min.js"></script>
+          <script src="/docs/default-source/assets/js/uicommon/js-enc-min.js" defer></script>
           <input type="hidden" id="hdnIPaddress1" /><input
             type="hidden"
             id="hdnDeviceId1"
@@ -15682,13 +15708,11 @@
                 window.frames.ymIframe &&
                 window.frames.ymIframe.document;
               const newStyleElement = frameDocument.createElement("style");
-              console.log(frameDocument);
               newStyleElement.innerHTML = `
                 #chatOptions .option.vertical-qr {
                     min-width: 100%;
                 }
                 #chatOptions .option.vertical-qr.vertical-qr-center {
-                    left: 0;
                     margin-left: 0;
                 }
             `;
@@ -15747,7 +15771,6 @@
                   window.frames.ymIframe &&
                   window.frames.ymIframe.document;
                 const newStyleElement = frameDocument.createElement("style");
-                console.log(frameDocument);
                 newStyleElement.innerHTML = `
                 #chatOptions .option.vertical-qr {
                     min-width: 100%;
@@ -16875,8 +16898,8 @@
                       </li>
                     </ul>
                     <!--  <div class="widget-mn-img">
-                        <img class="wid-desk-im lazy" alt="ICICI Lombard car insurance comparison" data-src="/docs/default-source/apps/fwfresh/fw-landing/images/widget-men-vector.png">
-                        <img alt="ICICI Lombard Car Insurance" class="wid-mob-im lazy" data-src="/docs/default-source/apps/fwfresh/fw-landing/images/widget-mob-vector.png">
+                        <img class="wid-desk-im lazy" alt="ICICI Lombard car insurance comparison" data-src="/docs/default-source/apps/fwfresh/fw-landing/images/widget-men-vector.png" width="427" height="445" fetchpriority="high">
+                        <img alt="ICICI Lombard Car Insurance" class="wid-mob-im lazy" data-src="/docs/default-source/apps/fwfresh/fw-landing/images/widget-mob-vector.png" width="427" height="445">
                     </div> -->
                     <picture class="widget-mn-img">
                       <source
@@ -22672,9 +22695,12 @@
         </div>
         <div class="sfContentBlock"></div>
         <div class="sfContentBlock">
-          <script src="/docs/default-source/apps/fwwidget/prod/js/main-9f9f51ed87fc43fb.js"></script>
-          <script src="/docs/default-source/apps/fwwidget/prod/js/polyfills-88ef41176ddcc576.js"></script>
-          <script src="/docs/default-source/apps/fwwidget/prod/js/runtime-4dc31269d12931d1.js"></script>
+          <script src="/docs/default-source/apps/fwwidget/prod/js/main-9f9f51ed87fc43fb.js" defer></script>
+          <script src="/docs/default-source/apps/fwwidget/prod/js/polyfills-88ef41176ddcc576.js" defer></script>
+          <script src="/docs/default-source/apps/fwwidget/prod/js/runtime-4dc31269d12931d1.js" defer></script>
+        </div>
+        <div class="sfContentBlock">
+          
         </div>
         <div class="sfContentBlock">
           <script type="application/ld+json">
@@ -26797,5 +26823,3 @@
     </script>
   </body>
 </html>
-
-

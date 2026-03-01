@@ -665,3 +665,105 @@ $(document).ready(function () {
     });
 var regMobilecb = /^[6-9]{1}[0-9]{9}$/;
 
+(function () {
+    function ensureAlt(img) {
+        if (!img || img.hasAttribute('alt')) return;
+        var src = img.getAttribute('src') || '';
+        var cls = img.getAttribute('class') || '';
+        var altText = '';
+        if (/whatsapp/i.test(src) || /whatsapp/i.test(cls)) {
+            altText = 'WhatsApp';
+        } else if (/(logo|icon|sprite|decor|spacer|blank)/i.test(src + ' ' + cls)) {
+            altText = '';
+        } else {
+            altText = 'Illustration';
+        }
+        img.setAttribute('alt', altText);
+        if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+        if ((/\\blazy\\b/i.test(cls) || img.classList.contains('lazy')) && !img.hasAttribute('loading')) {
+            img.setAttribute('loading', 'lazy');
+        }
+    }
+    function ensureDimensions(img) {
+        if (!img) return;
+        function setDims() {
+            if (!img.hasAttribute('width') && img.naturalWidth) {
+                img.setAttribute('width', img.naturalWidth);
+            }
+            if (!img.hasAttribute('height') && img.naturalHeight) {
+                img.setAttribute('height', img.naturalHeight);
+            }
+        }
+        if (img.complete) setDims();
+        else img.addEventListener('load', setDims, { once: true });
+    }
+    var imgs = document.getElementsByTagName('img');
+    for (var i = 0; i < imgs.length; i++) { ensureAlt(imgs[i]); ensureDimensions(imgs[i]); }
+    try {
+        var links = document.getElementsByTagName('a');
+        for (var li = 0; li < links.length; li++) {
+            var a = links[li];
+            var href = (a.getAttribute('href') || '').toLowerCase();
+            var txt = (a.textContent || '').trim().toLowerCase();
+            if (href.indexOf('/motor-insurance-claims') !== -1 && txt === 'here') {
+                a.textContent = 'Motor Insurance Claims';
+            }
+            if (!href || href === '' || href === '#' || href.indexOf('javascript:') === 0) {
+                if ((a.id || '').toLowerCase() === 'whatreg') {
+                    a.setAttribute('href', '#understand-reg-no');
+                } else if (a.getAttribute('data-anchor')) {
+                    a.setAttribute('href', '#' + a.getAttribute('data-anchor'));
+                } else {
+                    a.setAttribute('href', '#');
+                    a.setAttribute('role', 'button');
+                }
+            }
+        }
+    } catch (e) {}
+    if (window.MutationObserver) {
+        var observer = new MutationObserver(function (mutations) {
+            for (var i = 0; i < mutations.length; i++) {
+                var m = mutations[i];
+                if (m.type === 'childList') {
+                    for (var j = 0; j < m.addedNodes.length; j++) {
+                        var n = m.addedNodes[j];
+                        if (n.nodeType === 1) {
+                            if (n.tagName === 'IMG') { ensureAlt(n); ensureDimensions(n); }
+                            var nested = n.querySelectorAll && n.querySelectorAll('img');
+                            if (nested) for (var k = 0; k < nested.length; k++) { ensureAlt(nested[k]); ensureDimensions(nested[k]); }
+                            // Fix ambiguous 'here' text for claims link if dynamically injected
+                            var anchors = n.tagName === 'A' ? [n] : (n.querySelectorAll && n.querySelectorAll('a')) || [];
+                            for (var ai = 0; ai < anchors.length; ai++) {
+                                var an = anchors[ai];
+                                var href = (an.getAttribute('href') || '').toLowerCase();
+                                var txt = (an.textContent || '').trim().toLowerCase();
+                                if (href.indexOf('/motor-insurance-claims') !== -1 && txt === 'here') {
+                                    an.textContent = 'Motor Insurance Claims';
+                                }
+                                if (!href || href === '' || href === '#' || href.indexOf('javascript:') === 0) {
+                                    if ((an.id || '').toLowerCase() === 'whatreg') {
+                                        an.setAttribute('href', '#understand-reg-no');
+                                    } else if (an.getAttribute('data-anchor')) {
+                                        an.setAttribute('href', '#' + an.getAttribute('data-anchor'));
+                                    } else {
+                                        an.setAttribute('href', '#');
+                                        an.setAttribute('role', 'button');
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } else if (m.type === 'attributes' && m.target && m.target.tagName === 'IMG') {
+                    ensureAlt(m.target); ensureDimensions(m.target);
+                }
+            }
+        });
+        observer.observe(document.documentElement || document.body, {
+            childList: true,
+            subtree: true,
+            attributes: true,
+            attributeFilter: ['src', 'class']
+        });
+    }
+})();
+
